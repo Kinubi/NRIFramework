@@ -16,7 +16,7 @@ if(NOT IS_SUBMODULE)
     set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/_Bin" CACHE STRING "")
 endif()
 
-option(NRIF_USE_WAYLAND "Use Wayland instead of X11 on Linux" OFF)
+option(NRIF_USE_WAYLAND "Use Wayland instead of X11 on Linux" ON)
 
 # Create project
 file(READ "${CMAKE_CURRENT_SOURCE_DIR}/Include/NRIFramework.h" ver_h)
