@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd vendor/NRIFramework
 mkdir -p "_Build"
 
 cd "_Build"

@@ -8,6 +8,7 @@ if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_CURRENT_SOURCE_DIR})
 else()
     set(IS_SUBMODULE ON)
 endif()
+set(IS_SUBMODULE ON)
 
 # Cached
 if(NOT IS_SUBMODULE)
